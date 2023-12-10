@@ -51,6 +51,7 @@ export const Publish = ({ initialData }: PublishProps) => {
       error: "Failed to unpublish mote.",
     });
   };
+  //複製網址
   const onCopy = () => {
     navigator.clipboard.writeText(url);
     setCopied(true);
